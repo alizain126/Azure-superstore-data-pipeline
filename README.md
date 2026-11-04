@@ -6,7 +6,7 @@ and Azure Databricks, following the medallion architecture
 
 ## Architecture
 
-![Architecture diagram](docs/screenshot/architecture.png)
+![Architecture diagram](docs/screenshots/architecture.png)
 
 CSV → Azure Data Factory → ADLS Gen2 (raw → processed) →
 Databricks (PySpark) → ADLS Gen2 (curated) → Unity Catalog tables → Dashboard
