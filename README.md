@@ -69,7 +69,7 @@ Unity Catalog, Parquet, Databricks SQL Dashboards
 ## Repository Structure
 
 ```text
-notebooks/   PySpark transformation notebook
+notebook/   PySpark transformation notebook
 adf/         ADF pipeline definition (JSON)
 data/        Sample dataset
 docs/        Screenshots
